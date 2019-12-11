@@ -1,0 +1,105 @@
+{
+  "uid" : "866d9a744ce301e9",
+  "name" : "test_eight",
+  "fullName" : "test_work.TestC#test_eight",
+  "historyId" : "139d1b291f7398f55e70a384526c2301",
+  "time" : {
+    "start" : 1572058204568,
+    "stop" : 1572058204569,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1572058204567,
+      "stop" : 1572058204568,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ac2f9ea96f21ded4",
+      "name" : "log",
+      "source" : "ac2f9ea96f21ded4.txt",
+      "type" : "text/plain",
+      "size" : 148
+    }, {
+      "uid" : "9879709c876d54fa",
+      "name" : "stderr",
+      "source" : "9879709c876d54fa.txt",
+      "type" : "text/plain",
+      "size" : 89
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1572058204570,
+      "stop" : 1572058204570,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "866d9a744ce301e9.json",
+  "parameterValues" : [ ]
+}

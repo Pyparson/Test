@@ -1,0 +1,117 @@
+{
+  "f7d02f2f381d917fe6695685505b3c34" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3a087148234eb56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571501955840,
+        "stop" : 1571501959380,
+        "duration" : 3540
+      }
+    } ]
+  },
+  "46ef91d35182338e57dc293d2b80fa0b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9aa50af410229a63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571501948205,
+        "stop" : 1571501951616,
+        "duration" : 3411
+      }
+    } ]
+  },
+  "d2dc42fd7d1e1a906978101cca923a8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57597d8bd18fdd02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571501963451,
+        "stop" : 1571501964266,
+        "duration" : 815
+      }
+    } ]
+  },
+  "86964066795fe6cb70a5d55da6764828" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8d33a6c0998e66e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571501931090,
+        "stop" : 1571501934214,
+        "duration" : 3124
+      }
+    } ]
+  },
+  "58f3e6ba4ed6a08016486252deb24714" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "477bb5aa3a8f5fb3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Test Failed!!!\nassert '征集流程' == '议题征集流程'\n  - 征集流程\n  + 议题征集流程\n  ? ++",
+      "time" : {
+        "start" : 1571501925520,
+        "stop" : 1571501926279,
+        "duration" : 759
+      }
+    } ]
+  },
+  "a3ecf8797eecd76ca30d8240423ed39a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98ac573e2a9f7e56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571501939214,
+        "stop" : 1571501943722,
+        "duration" : 4508
+      }
+    } ]
+  }
+}

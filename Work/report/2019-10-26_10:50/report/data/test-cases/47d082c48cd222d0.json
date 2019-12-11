@@ -1,0 +1,114 @@
+{
+  "uid" : "47d082c48cd222d0",
+  "name" : "test_nine[9-6-15]",
+  "fullName" : "test_work.TestC#test_nine",
+  "historyId" : "50e5ea0223da5c12744bcbb1c5f9c295",
+  "time" : {
+    "start" : 1572058204671,
+    "stop" : 1572058204672,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1572058204660,
+      "stop" : 1572058204660,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f58bf5f2cf3fd9a",
+      "name" : "log",
+      "source" : "f58bf5f2cf3fd9a.txt",
+      "type" : "text/plain",
+      "size" : 50
+    }, {
+      "uid" : "e2d6e9782cce513",
+      "name" : "stderr",
+      "source" : "e2d6e9782cce513.txt",
+      "type" : "text/plain",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1572058204685,
+      "stop" : 1572058204685,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "9"
+  }, {
+    "name" : "b",
+    "value" : "6"
+  }, {
+    "name" : "expected",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47d082c48cd222d0.json",
+  "parameterValues" : [ "9", "6", "15" ]
+}

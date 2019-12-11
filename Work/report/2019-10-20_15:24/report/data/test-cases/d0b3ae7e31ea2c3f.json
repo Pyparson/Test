@@ -1,0 +1,90 @@
+{
+  "uid" : "d0b3ae7e31ea2c3f",
+  "name" : "test_seven",
+  "fullName" : "test_work2.TestC#test_seven",
+  "historyId" : "43d1d5c93e714835d4d1f76f2e15a94d",
+  "time" : {
+    "start" : 1571556242381,
+    "stop" : 1571556242381,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1571556242380,
+      "stop" : 1571556242381,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6cd186fdef9b08b6",
+      "name" : "log",
+      "source" : "6cd186fdef9b08b6.txt",
+      "type" : "text/plain",
+      "size" : 104
+    }, {
+      "uid" : "a18cfd181a656dcb",
+      "name" : "stderr",
+      "source" : "a18cfd181a656dcb.txt",
+      "type" : "text/plain",
+      "size" : 66
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0b3ae7e31ea2c3f.json",
+  "parameterValues" : [ ]
+}

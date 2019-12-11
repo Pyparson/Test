@@ -1,0 +1,4 @@
+INFO     root:conftest.py:9 This is setup_module!!!
+INFO     root:conftest.py:14 This is ClassA teardown_class
+INFO     root:conftest.py:21 This is ClassB setup_function
+INFO     root:test_work2.py:18 This is test_one!!!

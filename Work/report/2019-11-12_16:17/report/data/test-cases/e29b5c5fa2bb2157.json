@@ -1,0 +1,122 @@
+{
+  "uid" : "e29b5c5fa2bb2157",
+  "name" : "test_six[30-5-6]",
+  "fullName" : "test_work2.TestB#test_six",
+  "historyId" : "f705f0da69ea3fd522db0cdf7598df1d",
+  "time" : {
+    "start" : 1573546636395,
+    "stop" : 1573546636395,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 35 == 6\n +  where 35 = add(30, 5)",
+  "statusTrace" : "self = <Work.test_work2.TestB object at 0x10dea3668>, module = None\nclassB_start = None, a = 30, b = 5, expected = 6\n\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_six(self, module, classB_start, a, b, expected):\n        # a = json.load(open(\"calc.json\"))\n        # print(a[\"login\"])\n        logging.info(\"This is test_six!!!\")\n>       assert add(a, b) == expected\nE       assert 35 == 6\nE        +  where 35 = add(30, 5)\n\ntest_work2.py:45: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1573546636313,
+      "stop" : 1573546636313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "classB_start",
+    "time" : {
+      "start" : 1573546636394,
+      "stop" : 1573546636394,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 35 == 6\n +  where 35 = add(30, 5)",
+    "statusTrace" : "self = <Work.test_work2.TestB object at 0x10dea3668>, module = None\nclassB_start = None, a = 30, b = 5, expected = 6\n\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_six(self, module, classB_start, a, b, expected):\n        # a = json.load(open(\"calc.json\"))\n        # print(a[\"login\"])\n        logging.info(\"This is test_six!!!\")\n>       assert add(a, b) == expected\nE       assert 35 == 6\nE        +  where 35 = add(30, 5)\n\ntest_work2.py:45: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "21424595fdaba34",
+      "name" : "log",
+      "source" : "21424595fdaba34.txt",
+      "type" : "text/plain",
+      "size" : 109
+    }, {
+      "uid" : "b1a9f0d29539e0bf",
+      "name" : "stderr",
+      "source" : "b1a9f0d29539e0bf.txt",
+      "type" : "text/plain",
+      "size" : 70
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "3894-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "30"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "expected",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e29b5c5fa2bb2157.json",
+  "parameterValues" : [ "30", "5", "6" ]
+}

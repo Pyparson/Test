@@ -1,0 +1,143 @@
+{
+  "uid" : "da3c76706eb0aa24",
+  "name" : "test_work03",
+  "fullName" : "test_0728work.TestWork#test_work03",
+  "historyId" : "a3ecf8797eecd76ca30d8240423ed39a",
+  "time" : {
+    "start" : 1571541607159,
+    "stop" : 1571541610978,
+    "duration" : 3819
+  },
+  "description" : "社区访问霍格沃兹测试学院，断言未登录是被拒绝的",
+  "descriptionHtml" : "<p>社区访问霍格沃兹测试学院，断言未登录是被拒绝的</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1571541604120,
+      "stop" : 1571541607158,
+      "duration" : 3038
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "社区访问霍格沃兹测试学院，断言未登录是被拒绝的",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "feffffa21dfd7fd2",
+      "name" : "log",
+      "source" : "feffffa21dfd7fd2.txt",
+      "type" : "text/plain",
+      "size" : 8884
+    }, {
+      "uid" : "bfbc3f04c5b1093c",
+      "name" : "stderr",
+      "source" : "bfbc3f04c5b1093c.txt",
+      "type" : "text/plain",
+      "size" : 7123
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1571541610978,
+      "stop" : 1571541611079,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3761-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "925f8ffeba23ed4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571541340962,
+        "stop" : 1571541344841,
+        "duration" : 3879
+      }
+    }, {
+      "uid" : "9a3c33d3346cb5c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1571541261973,
+        "stop" : 1571541265859,
+        "duration" : 3886
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b2c84ee555db1575",
+        "status" : "passed",
+        "time" : {
+          "start" : 1571541340962,
+          "stop" : 1571541344841,
+          "duration" : 3879
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da3c76706eb0aa24.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "d3a1a5695413695",
+  "name" : "test_four",
+  "fullName" : "test_work2.TestB#test_four",
+  "historyId" : "129bc7dc4e7a7666141b532b5a85db8e",
+  "time" : {
+    "start" : 1571556242406,
+    "stop" : 1571556242406,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1571556242390,
+      "stop" : 1571556242390,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "classB_start",
+    "time" : {
+      "start" : 1571556242405,
+      "stop" : 1571556242405,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f926bf11cd25ff1b",
+      "name" : "log",
+      "source" : "f926bf11cd25ff1b.txt",
+      "type" : "text/plain",
+      "size" : 110
+    }, {
+      "uid" : "e3dc7a2b69259a01",
+      "name" : "stderr",
+      "source" : "e3dc7a2b69259a01.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3a1a5695413695.json",
+  "parameterValues" : [ ]
+}

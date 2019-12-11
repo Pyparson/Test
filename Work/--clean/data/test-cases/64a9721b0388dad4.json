@@ -1,0 +1,106 @@
+{
+  "uid" : "64a9721b0388dad4",
+  "name" : "test_work06",
+  "fullName" : "test_0728work.TestWork#test_work06",
+  "historyId" : "592ac6cd6d0c9619b61794409d8ba670",
+  "time" : {
+    "start" : 1571541365869,
+    "stop" : 1571541370058,
+    "duration" : 4189
+  },
+  "description" : "切换handles",
+  "descriptionHtml" : "<p>切换handles</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1571541362498,
+      "stop" : 1571541365867,
+      "duration" : 3369
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "切换handles",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f7461c366346f1c",
+      "name" : "log",
+      "source" : "8f7461c366346f1c.txt",
+      "type" : "text/plain",
+      "size" : 10645
+    }, {
+      "uid" : "d1790cca27d8786b",
+      "name" : "stderr",
+      "source" : "d1790cca27d8786b.txt",
+      "type" : "text/plain",
+      "size" : 8492
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1571541370059,
+      "stop" : 1571541370162,
+      "duration" : 103
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64a9721b0388dad4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,152 @@
+{
+  "uid" : "878f3d02a8ba56cf",
+  "name" : "test_six[30-5-6]",
+  "fullName" : "test_work.TestB#test_six",
+  "historyId" : "9252472437623d87a04201feaaae742f",
+  "time" : {
+    "start" : 1572059932701,
+    "stop" : 1572059932702,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 35 == 6\n +  where 35 = add(30, 5)",
+  "statusTrace" : "self = <Work.test_work.TestB object at 0x104e4ddd8>, a = 30, b = 5, expected = 6\n\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_six(self, a, b, expected):\n        logging.info(\"This is test_six!!!\")\n>       assert add(a, b) == expected\nE       assert 35 == 6\nE        +  where 35 = add(30, 5)\n\ntest_work.py:58: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1572059932602,
+      "stop" : 1572059932602,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1572059932699,
+      "stop" : 1572059932699,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 35 == 6\n +  where 35 = add(30, 5)",
+    "statusTrace" : "self = <Work.test_work.TestB object at 0x104e4ddd8>, a = 30, b = 5, expected = 6\n\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_six(self, a, b, expected):\n        logging.info(\"This is test_six!!!\")\n>       assert add(a, b) == expected\nE       assert 35 == 6\nE        +  where 35 = add(30, 5)\n\ntest_work.py:58: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e914dc03403ffdac",
+      "name" : "log",
+      "source" : "e914dc03403ffdac.txt",
+      "type" : "text/plain",
+      "size" : 139
+    }, {
+      "uid" : "debf683b8b471337",
+      "name" : "stderr",
+      "source" : "debf683b8b471337.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1572059932715,
+      "stop" : 1572059932715,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1572059932713,
+      "stop" : 1572059932713,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestB"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7295-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "30"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "expected",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "878f3d02a8ba56cf.json",
+  "parameterValues" : [ "30", "5", "6" ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_work01",
+    "uid" : "477bb5aa3a8f5fb3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1571501925520,
+      "stop" : 1571501926279,
+      "duration" : 759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_work02",
+    "uid" : "f8d33a6c0998e66e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571501931090,
+      "stop" : 1571501934214,
+      "duration" : 3124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_work03",
+    "uid" : "98ac573e2a9f7e56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571501939214,
+      "stop" : 1571501943722,
+      "duration" : 4508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_work04[111111-222222]",
+    "uid" : "9aa50af410229a63",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571501948205,
+      "stop" : 1571501951616,
+      "duration" : 3411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'111111'", "'222222'" ]
+  }, {
+    "name" : "test_work04[22222@33.com-ASDDFFFF]",
+    "uid" : "e3a087148234eb56",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571501955840,
+      "stop" : 1571501959380,
+      "duration" : 3540
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'22222@33.com'", "'ASDDFFFF'" ]
+  }, {
+    "name" : "test_work05",
+    "uid" : "57597d8bd18fdd02",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1571501963451,
+      "stop" : 1571501964266,
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

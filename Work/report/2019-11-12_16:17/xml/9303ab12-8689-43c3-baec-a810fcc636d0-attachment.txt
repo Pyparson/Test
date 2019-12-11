@@ -1,0 +1,1 @@
+INFO     root:test_work.py:73 This is test_eight!!!

@@ -1,0 +1,147 @@
+{
+  "uid" : "e0c862d5335acc46",
+  "name" : "test_div[30-5-6]",
+  "fullName" : "test_params.TestParams#test_div",
+  "historyId" : "5cba4e7d2708ce4ee68405b1e4b66f9d",
+  "time" : {
+    "start" : 1572059932958,
+    "stop" : 1572059932958,
+    "duration" : 0
+  },
+  "description" : "除法计算",
+  "descriptionHtml" : "<p>除法计算</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "method_logging",
+    "time" : {
+      "start" : 1572059932957,
+      "stop" : 1572059932957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging",
+    "time" : {
+      "start" : 1572059932718,
+      "stop" : 1572059932718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "除法计算",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "448b6d60c5dfd9fd",
+      "name" : "log",
+      "source" : "448b6d60c5dfd9fd.txt",
+      "type" : "text/plain",
+      "size" : 145
+    }, {
+      "uid" : "c70baeda3eb032aa",
+      "name" : "stderr",
+      "source" : "c70baeda3eb032aa.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "method_logging::0",
+    "time" : {
+      "start" : 1572059932960,
+      "stop" : 1572059932960,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging::0",
+    "time" : {
+      "start" : 1572059932961,
+      "stop" : 1572059932961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestParams"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7295-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "30"
+  }, {
+    "name" : "b",
+    "value" : "5"
+  }, {
+    "name" : "expected",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0c862d5335acc46.json",
+  "parameterValues" : [ "30", "5", "6" ]
+}

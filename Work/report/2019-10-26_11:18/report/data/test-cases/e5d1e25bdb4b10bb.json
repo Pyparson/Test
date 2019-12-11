@@ -1,0 +1,155 @@
+{
+  "uid" : "e5d1e25bdb4b10bb",
+  "name" : "test_sub[3-3-9]",
+  "fullName" : "test_params.TestParams#test_sub",
+  "historyId" : "5add922e42c354688202d450e8439457",
+  "time" : {
+    "start" : 1572059932781,
+    "stop" : 1572059932781,
+    "duration" : 0
+  },
+  "description" : "减法计算",
+  "descriptionHtml" : "<p>减法计算</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Test Failed!!!\nassert 9 == 0",
+  "statusTrace" : "self = <Work.test_params.TestParams object at 0x104ea2780>, a = 3, b = 3\nexpected = 9\n\n    @allure.description(\"减法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", yaml.load(open(\"params.yaml\"))[\"Sub\"])\n    def test_sub(self, a, b, expected):\n        sum = sub(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 9 == 0\n\ntest_params.py:57: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "class_logging",
+    "time" : {
+      "start" : 1572059932718,
+      "stop" : 1572059932718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "method_logging",
+    "time" : {
+      "start" : 1572059932779,
+      "stop" : 1572059932780,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "减法计算",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Test Failed!!!\nassert 9 == 0",
+    "statusTrace" : "self = <Work.test_params.TestParams object at 0x104ea2780>, a = 3, b = 3\nexpected = 9\n\n    @allure.description(\"减法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", yaml.load(open(\"params.yaml\"))[\"Sub\"])\n    def test_sub(self, a, b, expected):\n        sum = sub(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 9 == 0\n\ntest_params.py:57: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54d3bfd298d36277",
+      "name" : "log",
+      "source" : "54d3bfd298d36277.txt",
+      "type" : "text/plain",
+      "size" : 97
+    }, {
+      "uid" : "2375d440d085fd39",
+      "name" : "stderr",
+      "source" : "2375d440d085fd39.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "class_logging::0",
+    "time" : {
+      "start" : 1572059932961,
+      "stop" : 1572059932961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "method_logging::0",
+    "time" : {
+      "start" : 1572059932787,
+      "stop" : 1572059932787,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestParams"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7295-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "3"
+  }, {
+    "name" : "expected",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e5d1e25bdb4b10bb.json",
+  "parameterValues" : [ "3", "3", "9" ]
+}

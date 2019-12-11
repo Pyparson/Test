@@ -1,0 +1,116 @@
+{
+  "uid" : "b54a3767bd59915c",
+  "name" : "test_work01",
+  "fullName" : "test_0728work.TestWork#test_work01",
+  "historyId" : "58f3e6ba4ed6a08016486252deb24714",
+  "time" : {
+    "start" : 1571541764691,
+    "stop" : 1571541765294,
+    "duration" : 603
+  },
+  "description" : "课间作业",
+  "descriptionHtml" : "<p>课间作业</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Test Failed!!!\nassert '征集流程' == '议题征集流程'\n  - 征集流程\n  + 议题征集流程\n  ? ++",
+  "statusTrace" : "self = <Work.test_0728work.TestWork object at 0x108b9dba8>\n\n    @allure.description(\"课间作业\")\n    def test_work01(self):\n        self.driver.find_element(By.CSS_SELECTOR, 'a[title*=\"议题征集\"]').click()\n        # self.driver.find_element(By.CSS_SELECTOR,'button[class*=\"btn btn-default\"]').click()\n        self.find_element_until_visibility((By.CSS_SELECTOR, 'button[class*=\"btn btn-default\"]')).click()\n        self.driver.find_element(By.XPATH, \"//a[contains(text(),'征集议题范围')]\").click()\n        text = self.find_element_until_visibility((By.CSS_SELECTOR, 'h2[id*=\"议题征集\"]')).text\n        logging.info(text)\n>       assert \"征集流程\" == text, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert '征集流程' == '议题征集流程'\nE         - 征集流程\nE         + 议题征集流程\nE         ? ++\n\ntest_0728work.py:46: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1571541761285,
+      "stop" : 1571541764690,
+      "duration" : 3405
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "课间作业",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Test Failed!!!\nassert '征集流程' == '议题征集流程'\n  - 征集流程\n  + 议题征集流程\n  ? ++",
+    "statusTrace" : "self = <Work.test_0728work.TestWork object at 0x108b9dba8>\n\n    @allure.description(\"课间作业\")\n    def test_work01(self):\n        self.driver.find_element(By.CSS_SELECTOR, 'a[title*=\"议题征集\"]').click()\n        # self.driver.find_element(By.CSS_SELECTOR,'button[class*=\"btn btn-default\"]').click()\n        self.find_element_until_visibility((By.CSS_SELECTOR, 'button[class*=\"btn btn-default\"]')).click()\n        self.driver.find_element(By.XPATH, \"//a[contains(text(),'征集议题范围')]\").click()\n        text = self.find_element_until_visibility((By.CSS_SELECTOR, 'h2[id*=\"议题征集\"]')).text\n        logging.info(text)\n>       assert \"征集流程\" == text, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert '征集流程' == '议题征集流程'\nE         - 征集流程\nE         + 议题征集流程\nE         ? ++\n\ntest_0728work.py:46: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "76ffb156ee848d18",
+      "name" : "log",
+      "source" : "76ffb156ee848d18.txt",
+      "type" : "text/plain",
+      "size" : 7904
+    }, {
+      "uid" : "8140c1dda5b9bdf0",
+      "name" : "stderr",
+      "source" : "8140c1dda5b9bdf0.txt",
+      "type" : "text/plain",
+      "size" : 6326
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1571541765353,
+      "stop" : 1571541765439,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3998-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b54a3767bd59915c.json",
+  "parameterValues" : [ ]
+}

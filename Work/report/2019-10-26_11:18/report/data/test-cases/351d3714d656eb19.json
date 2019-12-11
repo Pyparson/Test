@@ -1,0 +1,107 @@
+{
+  "uid" : "351d3714d656eb19",
+  "name" : "test_nine[3-3-9]",
+  "fullName" : "test_work2.TestC#test_nine",
+  "historyId" : "a9f61db0126d0ac07307c6847cb6dfbf",
+  "time" : {
+    "start" : 1572059932373,
+    "stop" : 1572059932373,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 6 == 9\n +  where 6 = add(3, 3)",
+  "statusTrace" : "self = <Work.test_work2.TestC object at 0x104c4c240>, module = None, a = 3\nb = 3, expected = 9\n\n    @pytest.mark.run(order=2)\n    @pytest.mark.parametrize(\"a,b,expected\", yaml.load(open(\"calc.yaml\")))\n    def test_nine(self, module, a, b, expected):\n        logging.info(\"This is test_nine!!!\")\n>       assert add(a, b) == expected\nE       assert 6 == 9\nE        +  where 6 = add(3, 3)\n\ntest_work2.py:63: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1572059932372,
+      "stop" : 1572059932372,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 6 == 9\n +  where 6 = add(3, 3)",
+    "statusTrace" : "self = <Work.test_work2.TestC object at 0x104c4c240>, module = None, a = 3\nb = 3, expected = 9\n\n    @pytest.mark.run(order=2)\n    @pytest.mark.parametrize(\"a,b,expected\", yaml.load(open(\"calc.yaml\")))\n    def test_nine(self, module, a, b, expected):\n        logging.info(\"This is test_nine!!!\")\n>       assert add(a, b) == expected\nE       assert 6 == 9\nE        +  where 6 = add(3, 3)\n\ntest_work2.py:63: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d9b25b80d781209d",
+      "name" : "log",
+      "source" : "d9b25b80d781209d.txt",
+      "type" : "text/plain",
+      "size" : 103
+    }, {
+      "uid" : "2c63251d5e72979a",
+      "name" : "stderr",
+      "source" : "2c63251d5e72979a.txt",
+      "type" : "text/plain",
+      "size" : 65
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7295-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "3"
+  }, {
+    "name" : "expected",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "351d3714d656eb19.json",
+  "parameterValues" : [ "3", "3", "9" ]
+}

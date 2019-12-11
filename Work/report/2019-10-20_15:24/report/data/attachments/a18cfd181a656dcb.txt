@@ -1,0 +1,2 @@
+INFO:root:This is setup_module!!!
+INFO:root:This is test_seven!!!

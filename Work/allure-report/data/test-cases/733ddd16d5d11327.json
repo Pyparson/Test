@@ -1,0 +1,90 @@
+{
+  "uid" : "733ddd16d5d11327",
+  "name" : "test_seven",
+  "fullName" : "test_work2.TestC#test_seven",
+  "historyId" : "43d1d5c93e714835d4d1f76f2e15a94d",
+  "time" : {
+    "start" : 1571538978884,
+    "stop" : 1571538978885,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1571538978883,
+      "stop" : 1571538978884,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee19a71dbbdd3128",
+      "name" : "log",
+      "source" : "ee19a71dbbdd3128.txt",
+      "type" : "text/plain",
+      "size" : 122
+    }, {
+      "uid" : "e26c02878f86e6d",
+      "name" : "stderr",
+      "source" : "e26c02878f86e6d.txt",
+      "type" : "text/plain",
+      "size" : 66
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2205-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "733ddd16d5d11327.json",
+  "parameterValues" : [ ]
+}

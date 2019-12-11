@@ -1,0 +1,2 @@
+[32mINFO    [0m root:conftest.py:21 This is ClassB setup_function
+[32mINFO    [0m root:test_work2.py:33 This is test_four!!!

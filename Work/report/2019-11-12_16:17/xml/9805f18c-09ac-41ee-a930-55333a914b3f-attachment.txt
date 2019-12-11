@@ -1,0 +1,1 @@
+INFO     root:test_work.py:66 This is test_seven!!!

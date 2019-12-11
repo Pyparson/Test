@@ -1,0 +1,155 @@
+{
+  "uid" : "619034488eef35b3",
+  "name" : "test_div[3-6-9]",
+  "fullName" : "test_params.TestParams#test_div",
+  "historyId" : "14398347fc48cce2860bafbc24279bc8",
+  "time" : {
+    "start" : 1573546636627,
+    "stop" : 1573546636628,
+    "duration" : 1
+  },
+  "description" : "除法计算",
+  "descriptionHtml" : "<p>除法计算</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Test Failed!!!\nassert 9 == 0.5",
+  "statusTrace" : "self = <Work.test_params.TestParams object at 0x10df5d4e0>, a = 3, b = 6\nexpected = 9\n\n    @allure.description(\"除法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_div(self, a, b, expected):\n        sum = div(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 9 == 0.5\n\ntest_params.py:69: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "method_logging",
+    "time" : {
+      "start" : 1573546636626,
+      "stop" : 1573546636627,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging",
+    "time" : {
+      "start" : 1573546636503,
+      "stop" : 1573546636503,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "除法计算",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Test Failed!!!\nassert 9 == 0.5",
+    "statusTrace" : "self = <Work.test_params.TestParams object at 0x10df5d4e0>, a = 3, b = 6\nexpected = 9\n\n    @allure.description(\"除法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", json.load(open(\"calc.json\")))\n    def test_div(self, a, b, expected):\n        sum = div(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 9 == 0.5\n\ntest_params.py:69: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffdd97abf7809df4",
+      "name" : "log",
+      "source" : "ffdd97abf7809df4.txt",
+      "type" : "text/plain",
+      "size" : 97
+    }, {
+      "uid" : "1c0ad11fd1885a4a",
+      "name" : "stderr",
+      "source" : "1c0ad11fd1885a4a.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "method_logging::0",
+    "time" : {
+      "start" : 1573546636631,
+      "stop" : 1573546636631,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging::0",
+    "time" : {
+      "start" : 1573546636668,
+      "stop" : 1573546636668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestParams"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "3894-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "6"
+  }, {
+    "name" : "expected",
+    "value" : "9"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "619034488eef35b3.json",
+  "parameterValues" : [ "3", "6", "9" ]
+}

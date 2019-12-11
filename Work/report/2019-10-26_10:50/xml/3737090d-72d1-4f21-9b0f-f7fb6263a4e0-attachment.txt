@@ -1,0 +1,3 @@
+INFO:root:This is test_three!!!
+INFO:root:This is teardown_class!!!
+INFO:root:Clean the venv

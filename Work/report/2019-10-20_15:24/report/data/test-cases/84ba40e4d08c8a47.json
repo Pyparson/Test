@@ -1,0 +1,61 @@
+{
+  "uid" : "84ba40e4d08c8a47",
+  "name" : "test_work05",
+  "fullName" : "test_0728work.TestWork#test_work05",
+  "historyId" : "d2dc42fd7d1e1a906978101cca923a8a",
+  "time" : {
+    "start" : 1571556242537,
+    "stop" : 1571556242537,
+    "duration" : 0
+  },
+  "description" : "搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的",
+  "descriptionHtml" : "<p>搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestWork' object has no attribute 'driver'",
+  "statusTrace" : "self = <Work.test_0728work.TestWork object at 0x10d8d9b70>\n\n    def test_work05(self):\n        \"\"\"搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的\"\"\"\n>       self.find_element_until_visibility((By.CSS_SELECTOR, '.form-control')).send_keys(\"测试媛\")\n\ntest_0728work.py:95: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Work.test_0728work.TestWork object at 0x10d8d9b70>\nlocator = ('css selector', '.form-control'), timeout = 10\n\n    def find_element_until_visibility(self, locator, timeout=10):\n        try:\n>           ele = WebDriverWait(self.driver, timeout).until(EC.visibility_of_element_located(locator))\nE           AttributeError: 'TestWork' object has no attribute 'driver'\n\ntest_0728work.py:39: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "84ba40e4d08c8a47.json",
+  "parameterValues" : [ ]
+}

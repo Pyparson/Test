@@ -1,0 +1,155 @@
+{
+  "uid" : "3c29245b7a55ca48",
+  "name" : "test_add[40-40-1]",
+  "fullName" : "test_params.TestParams#test_add",
+  "historyId" : "b76acea2ea277bb96d1868f183ffdb43",
+  "time" : {
+    "start" : 1572059932755,
+    "stop" : 1572059932755,
+    "duration" : 0
+  },
+  "description" : "加法计算",
+  "descriptionHtml" : "<p>加法计算</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Test Failed!!!\nassert 1 == 80",
+  "statusTrace" : "self = <Work.test_params.TestParams object at 0x104e6c1d0>, a = 40, b = 40\nexpected = 1\n\n    @allure.description(\"加法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", [(5, 7, 9),\n                                              (4, 4, 8),\n                                              (9, 9, 18),\n                                              (40, 40, 1),\n                                              (6, 5, 30)])\n    def test_add(self, a, b, expected):\n        sum = add(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 1 == 80\n\ntest_params.py:51: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "method_logging",
+    "time" : {
+      "start" : 1572059932754,
+      "stop" : 1572059932754,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging",
+    "time" : {
+      "start" : 1572059932718,
+      "stop" : 1572059932718,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "加法计算",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Test Failed!!!\nassert 1 == 80",
+    "statusTrace" : "self = <Work.test_params.TestParams object at 0x104e6c1d0>, a = 40, b = 40\nexpected = 1\n\n    @allure.description(\"加法计算\")\n    @pytest.mark.parametrize(\"a,b,expected\", [(5, 7, 9),\n                                              (4, 4, 8),\n                                              (9, 9, 18),\n                                              (40, 40, 1),\n                                              (6, 5, 30)])\n    def test_add(self, a, b, expected):\n        sum = add(a, b)\n>       assert expected == sum, \"Test Failed!!!\"\nE       AssertionError: Test Failed!!!\nE       assert 1 == 80\n\ntest_params.py:51: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe942e64b0a67f1d",
+      "name" : "log",
+      "source" : "fe942e64b0a67f1d.txt",
+      "type" : "text/plain",
+      "size" : 97
+    }, {
+      "uid" : "deccd2218956404d",
+      "name" : "stderr",
+      "source" : "deccd2218956404d.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "method_logging::0",
+    "time" : {
+      "start" : 1572059932761,
+      "stop" : 1572059932762,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "class_logging::0",
+    "time" : {
+      "start" : 1572059932961,
+      "stop" : 1572059932961,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestParams"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "7295-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "40"
+  }, {
+    "name" : "b",
+    "value" : "40"
+  }, {
+    "name" : "expected",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3c29245b7a55ca48.json",
+  "parameterValues" : [ "40", "40", "1" ]
+}

@@ -1,0 +1,99 @@
+{
+  "uid" : "bf5787f50809f28",
+  "name" : "test_nine[9-6-15]",
+  "fullName" : "test_work2.TestC#test_nine",
+  "historyId" : "d02de15902db75507461a512263f05fe",
+  "time" : {
+    "start" : 1573546636417,
+    "stop" : 1573546636417,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "module",
+    "time" : {
+      "start" : 1573546636313,
+      "stop" : 1573546636313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd012e02278b049c",
+      "name" : "log",
+      "source" : "cd012e02278b049c.txt",
+      "type" : "text/plain",
+      "size" : 51
+    }, {
+      "uid" : "e0a363733e448da9",
+      "name" : "stderr",
+      "source" : "e0a363733e448da9.txt",
+      "type" : "text/plain",
+      "size" : 31
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_work2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestC"
+  }, {
+    "name" : "host",
+    "value" : "ZTL.local"
+  }, {
+    "name" : "thread",
+    "value" : "3894-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_work2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "9"
+  }, {
+    "name" : "b",
+    "value" : "6"
+  }, {
+    "name" : "expected",
+    "value" : "15"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf5787f50809f28.json",
+  "parameterValues" : [ "9", "6", "15" ]
+}

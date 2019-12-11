@@ -1,0 +1,3 @@
+[32mINFO    [0m root:conftest.py:9 This is setup_module!!!
+[32mINFO    [0m root:conftest.py:14 This is ClassA teardown_class
+[32mINFO    [0m root:test_work2.py:18 This is test_one!!!

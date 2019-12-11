@@ -1,0 +1,2 @@
+INFO     root:conftest.py:9 This is setup_module!!!
+INFO     root:test_work2.py:56 This is test_eight!!!

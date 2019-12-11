@@ -1,0 +1,1 @@
+INFO     root:test_work2.py:22 This is test_two!!!

@@ -1,0 +1,271 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 6 == 9\n +  where 6 = add(3, 3)",
+      "children" : [ {
+        "name" : "test_nine[3-3-9]",
+        "uid" : "dcb3bbdc28ba6092",
+        "parentUid" : "4575e446b33557f964ead2af3fcb7fd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242252,
+          "stop" : 1571556242253,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "3", "9" ]
+      }, {
+        "name" : "test_nine[3-3-9]",
+        "uid" : "9d0deead9920bd2d",
+        "parentUid" : "4575e446b33557f964ead2af3fcb7fd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242359,
+          "stop" : 1571556242359,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "3", "9" ]
+      } ],
+      "uid" : "4575e446b33557f964ead2af3fcb7fd1"
+    }, {
+      "name" : "AssertionError: assert 14 == 2\n +  where 14 = add(8, 6)",
+      "children" : [ {
+        "name" : "test_nine[8-6-2]",
+        "uid" : "bde74a1173ea0a35",
+        "parentUid" : "f81e4146163301801934df32e2a935f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242342,
+          "stop" : 1571556242343,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8", "6", "2" ]
+      }, {
+        "name" : "test_nine[8-6-2]",
+        "uid" : "3750302339441126",
+        "parentUid" : "f81e4146163301801934df32e2a935f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242373,
+          "stop" : 1571556242373,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "8", "6", "2" ]
+      } ],
+      "uid" : "f81e4146163301801934df32e2a935f7"
+    }, {
+      "name" : "AssertionError: assert 12 == 9\n +  where 12 = add(5, 7)",
+      "children" : [ {
+        "name" : "test_three[5-7-9]",
+        "uid" : "a026d2084ed02a09",
+        "parentUid" : "2dc2f08985119aeb83665ec707203898",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242397,
+          "stop" : 1571556242398,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5", "7", "9" ]
+      }, {
+        "name" : "test_three[5-7-9]",
+        "uid" : "d9993d6e2813192a",
+        "parentUid" : "2dc2f08985119aeb83665ec707203898",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242448,
+          "stop" : 1571556242448,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5", "7", "9" ]
+      } ],
+      "uid" : "2dc2f08985119aeb83665ec707203898"
+    }, {
+      "name" : "AssertionError: assert 10 == 8\n +  where 10 = add(5, 5)",
+      "children" : [ {
+        "name" : "test_five",
+        "uid" : "ac1ab8ceceec19f8",
+        "parentUid" : "709a76d25c9a461b742ffd2360d3634c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242410,
+          "stop" : 1571556242411,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_five",
+        "uid" : "3bd459a29a9df3a0",
+        "parentUid" : "709a76d25c9a461b742ffd2360d3634c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242460,
+          "stop" : 1571556242461,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "709a76d25c9a461b742ffd2360d3634c"
+    }, {
+      "name" : "AssertionError: assert 15 == 13\n +  where 15 = add(6, 9)",
+      "children" : [ {
+        "name" : "test_six[6-9-13]",
+        "uid" : "19b396a495986c37",
+        "parentUid" : "f2af362204925d8129a6f1c17aa6e1f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242430,
+          "stop" : 1571556242431,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "9", "13" ]
+      }, {
+        "name" : "test_six[6-9-13]",
+        "uid" : "3a5cb85a623d5b6c",
+        "parentUid" : "f2af362204925d8129a6f1c17aa6e1f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571556242482,
+          "stop" : 1571556242484,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "9", "13" ]
+      } ],
+      "uid" : "f2af362204925d8129a6f1c17aa6e1f3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'TestWork' object has no attribute 'driver'",
+      "children" : [ {
+        "name" : "test_work01",
+        "uid" : "5041a00e81394fa0",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242494,
+          "stop" : 1571556242495,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_work02",
+        "uid" : "4b9f8076231fe101",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242503,
+          "stop" : 1571556242503,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_work03",
+        "uid" : "3cda2a1edda1e386",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242511,
+          "stop" : 1571556242511,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_work04[111111-222222]",
+        "uid" : "186aa513605f103f",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242519,
+          "stop" : 1571556242519,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'111111'", "'222222'" ]
+      }, {
+        "name" : "test_work04[22222@33.com-ASDDFFFF]",
+        "uid" : "db59f8c2a1ee0f59",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242527,
+          "stop" : 1571556242527,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'22222@33.com'", "'ASDDFFFF'" ]
+      }, {
+        "name" : "test_work05",
+        "uid" : "84ba40e4d08c8a47",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242537,
+          "stop" : 1571556242537,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_work06",
+        "uid" : "aae55b1e474cbe60",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242548,
+          "stop" : 1571556242548,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_work08",
+        "uid" : "fb3b63cff162bd1f",
+        "parentUid" : "43ae97d0533b6c2398ec501ebc419b49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1571556242558,
+          "stop" : 1571556242558,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43ae97d0533b6c2398ec501ebc419b49"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Test Failed!!!\nassert '征集流程' == '议题征集流程'\n  - 征集流程\n  + 议题征集流程\n  ? ++",
+      "children" : [ {
+        "name" : "test_work01",
+        "uid" : "477bb5aa3a8f5fb3",
+        "parentUid" : "127b263aaf1a94884af646c530a16fda",
+        "status" : "failed",
+        "time" : {
+          "start" : 1571501925520,
+          "stop" : 1571501926279,
+          "duration" : 759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "127b263aaf1a94884af646c530a16fda"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

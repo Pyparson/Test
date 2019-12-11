@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "8f1ea0857403f9dc3b20067648aa3e27",
+    "name" : "test_work2",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "58d55735b23f9b4ba67d4f8fc0c797a3",
+    "name" : "test_work",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 13
+    }
+  }, {
+    "uid" : "cb5a431dacf0f3ae9a6ab4ffd890005d",
+    "name" : "test_0728work",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

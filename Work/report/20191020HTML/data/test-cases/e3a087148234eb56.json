@@ -1,0 +1,114 @@
+{
+  "uid" : "e3a087148234eb56",
+  "name" : "test_work04[22222@33.com-ASDDFFFF]",
+  "fullName" : "test_0728work.TestWork#test_work04",
+  "historyId" : "f7d02f2f381d917fe6695685505b3c34",
+  "time" : {
+    "start" : 1571501955840,
+    "stop" : 1571501959380,
+    "duration" : 3540
+  },
+  "description" : "错误用户名和密码登陆",
+  "descriptionHtml" : "<p>错误用户名和密码登陆</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1571501951721,
+      "stop" : 1571501955839,
+      "duration" : 4118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "错误用户名和密码登陆",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7db12c82550f860d",
+      "name" : "log",
+      "source" : "7db12c82550f860d.txt",
+      "type" : "text/plain",
+      "size" : 8967
+    }, {
+      "uid" : "81786bfa4178d534",
+      "name" : "stderr",
+      "source" : "81786bfa4178d534.txt",
+      "type" : "text/plain",
+      "size" : 7206
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1571501959381,
+      "stop" : 1571501959472,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "10763-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "email",
+    "value" : "'22222@33.com'"
+  }, {
+    "name" : "password",
+    "value" : "'ASDDFFFF'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3a087148234eb56.json",
+  "parameterValues" : [ "'22222@33.com'", "'ASDDFFFF'" ]
+}

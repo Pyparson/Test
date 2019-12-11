@@ -1,0 +1,2 @@
+INFO:root:This is ClassB setup_function
+INFO:root:This is test_five!!!

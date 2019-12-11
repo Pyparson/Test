@@ -1,0 +1,4 @@
+INFO:root:This is setup_module!!!
+INFO:root:This is ClassA teardown_class
+INFO:root:This is ClassB setup_function
+INFO:root:This is test_one!!!

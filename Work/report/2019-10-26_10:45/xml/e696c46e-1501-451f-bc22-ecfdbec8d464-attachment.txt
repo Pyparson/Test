@@ -1,0 +1,3 @@
+INFO:root:This is ClassB setup_function
+INFO:root:Setup...
+INFO:root:This is test_four!!!

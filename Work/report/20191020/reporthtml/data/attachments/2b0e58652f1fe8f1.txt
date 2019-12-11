@@ -1,0 +1,2 @@
+[32mINFO    [0m root:conftest.py:9 This is setup_module!!!
+[32mINFO    [0m root:test_work2.py:62 This is test_nine!!!

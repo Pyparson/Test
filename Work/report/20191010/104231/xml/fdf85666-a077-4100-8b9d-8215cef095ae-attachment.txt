@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_work.py:39 This is test_three!!!
+[32mINFO    [0m root:test_work.py:26 This is teardown_class!!!
+[32mINFO    [0m root:test_work.py:27 Clean the venv

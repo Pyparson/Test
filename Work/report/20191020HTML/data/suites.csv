@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Oct 20 00:19:15 CST 2019","Sun Oct 20 00:19:19 CST 2019","3540","","test_0728work","TestWork","","","test_work04[22222@33.com-ASDDFFFF]","错误用户名和密码登陆"
+"passed","Sun Oct 20 00:19:08 CST 2019","Sun Oct 20 00:19:11 CST 2019","3411","","test_0728work","TestWork","","","test_work04[111111-222222]","错误用户名和密码登陆"
+"passed","Sun Oct 20 00:18:51 CST 2019","Sun Oct 20 00:18:54 CST 2019","3124","","test_0728work","TestWork","","","test_work02","最新发布的帖子浏览"
+"failed","Sun Oct 20 00:18:45 CST 2019","Sun Oct 20 00:18:46 CST 2019","759","","test_0728work","TestWork","","","test_work01","课间作业"
+"passed","Sun Oct 20 00:18:59 CST 2019","Sun Oct 20 00:19:03 CST 2019","4508","","test_0728work","TestWork","","","test_work03","社区访问霍格沃兹测试学院，断言未登录是被拒绝的"
+"passed","Sun Oct 20 00:19:23 CST 2019","Sun Oct 20 00:19:24 CST 2019","815","","test_0728work","TestWork","","","test_work05","搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的"

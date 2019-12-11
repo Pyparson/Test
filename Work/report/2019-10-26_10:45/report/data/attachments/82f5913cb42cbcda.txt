@@ -1,0 +1,2 @@
+INFO     root:conftest.py:21 This is ClassB setup_function
+INFO     root:test_work2.py:33 This is test_four!!!

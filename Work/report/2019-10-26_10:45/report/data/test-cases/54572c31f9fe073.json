@@ -1,0 +1,102 @@
+{
+  "uid" : "54572c31f9fe073",
+  "name" : "test_add[4-4-8]",
+  "fullName" : "test_params.TestParams#test_add",
+  "historyId" : "befc78b7e3108e613eefe3205a58a877",
+  "time" : {
+    "start" : 1572057907213,
+    "stop" : 1572057907213,
+    "duration" : 0
+  },
+  "description" : "加法计算",
+  "descriptionHtml" : "<p>加法计算</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "classB_start",
+    "time" : {
+      "start" : 1572057907212,
+      "stop" : 1572057907212,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "加法计算",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34c3d5301ed76b5a",
+      "name" : "log",
+      "source" : "34c3d5301ed76b5a.txt",
+      "type" : "text/plain",
+      "size" : 58
+    }, {
+      "uid" : "34934693bde7c4c7",
+      "name" : "stderr",
+      "source" : "34934693bde7c4c7.txt",
+      "type" : "text/plain",
+      "size" : 40
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_params"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestParams"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "6382-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "4"
+  }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
+    "name" : "expected",
+    "value" : "8"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54572c31f9fe073.json",
+  "parameterValues" : [ "4", "4", "8" ]
+}

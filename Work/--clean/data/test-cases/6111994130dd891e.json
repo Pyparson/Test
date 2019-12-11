@@ -1,0 +1,106 @@
+{
+  "uid" : "6111994130dd891e",
+  "name" : "test_work05",
+  "fullName" : "test_0728work.TestWork#test_work05",
+  "historyId" : "d2dc42fd7d1e1a906978101cca923a8a",
+  "time" : {
+    "start" : 1571541282435,
+    "stop" : 1571541283413,
+    "duration" : 978
+  },
+  "description" : "搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的",
+  "descriptionHtml" : "<p>搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1571541279389,
+      "stop" : 1571541282434,
+      "duration" : 3045
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "搜索”测试媛“，找到成立的那个帖子，进去后断言标题与搜索出来的标题是对应的",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e5ad67d0706274d4",
+      "name" : "log",
+      "source" : "e5ad67d0706274d4.txt",
+      "type" : "text/plain",
+      "size" : 9737
+    }, {
+      "uid" : "48fe6d6562a9e5ff",
+      "name" : "stderr",
+      "source" : "48fe6d6562a9e5ff.txt",
+      "type" : "text/plain",
+      "size" : 7802
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1571541283414,
+      "stop" : 1571541283495,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_0728work"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWork"
+  }, {
+    "name" : "host",
+    "value" : "ParsondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_0728work"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6111994130dd891e.json",
+  "parameterValues" : [ ]
+}
